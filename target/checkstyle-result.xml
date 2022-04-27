@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="C:\Mate\plexsupply\src\main\java\basic\Main.java">
+</file>
+<file name="C:\Mate\plexsupply\src\main\java\basic\thread\FactorialThread.java">
+</file>
+<file name="C:\Mate\plexsupply\src\main\java\basic\thread\ReaderThread.java">
+</file>
+<file name="C:\Mate\plexsupply\src\main\java\basic\thread\WriterThread.java">
+</file>
+</checkstyle>
