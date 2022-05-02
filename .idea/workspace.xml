@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f396845-d19d-43f4-8a00-a51d0cddf495" name="Changes" comment="added logger" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28HlWFlBFMSlaUaojLM2A3c0u05" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowDuplicates.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mate\plexsupply" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="basic.thread" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basic.service" />
+      <recent name="basic.thread" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.basic.thread in plexsupply">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.Main" />
+      <module name="plexsupply" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plexsupply" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.thread" />
+      <option name="MAIN_CLASS_NAME" value="basic.thread.FactorialThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plexsupply" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.thread" />
+      <option name="MAIN_CLASS_NAME" value="basic.thread.ReaderThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriterThreadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plexsupply" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.thread" />
+      <option name="MAIN_CLASS_NAME" value="basic.thread.WriterThreadTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="basic.thread in plexsupply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="plexsupply" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basic.thread" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.basic.thread in plexsupply" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.FactorialThreadTest" />
+        <item itemvalue="JUnit.ReaderThreadTest" />
+        <item itemvalue="JUnit.WriterThreadTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f396845-d19d-43f4-8a00-a51d0cddf495" name="Changes" comment="" />
+      <created>1650881426076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650881426076</updated>
+      <workItem from="1650881427290" duration="3543000" />
+      <workItem from="1650892992606" duration="10959000" />
+      <workItem from="1650960240366" duration="1683000" />
+      <workItem from="1650973360312" duration="27262000" />
+      <workItem from="1651046261374" duration="6178000" />
+      <workItem from="1651476527581" duration="17740000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated README">
+      <created>1651053389050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651053389050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated README">
+      <created>1651053508598</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651053508598</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated .gitignore">
+      <created>1651053760089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651053760089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added logger">
+      <created>1651514934154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651514934155</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated README" />
+    <MESSAGE value="updated .gitignore" />
+    <MESSAGE value="added logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logger" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/plexsupply$FactorialThreadTest.ic" NAME="FactorialThreadTest Coverage Results" MODIFIED="1651003412599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>basic.thread.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/plexsupply$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1651052134771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>basic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/plexsupply$WriterThreadTest.ic" NAME="WriterThreadTest Coverage Results" MODIFIED="1651051792105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>basic.thread.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/plexsupply$ReaderThreadTest.ic" NAME="ReaderThreadTest Coverage Results" MODIFIED="1651002010135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>basic.thread.*</FILTER>
+    </SUITE>
+  </component>
+</project>
