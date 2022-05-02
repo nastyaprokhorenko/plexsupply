@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f396845-d19d-43f4-8a00-a51d0cddf495" name="Changes" comment="updated README" />
+    <list default="true" id="6f396845-d19d-43f4-8a00-a51d0cddf495" name="Changes" comment="updated .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/thread/FactorialThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/thread/FactorialThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/thread/ReaderThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/thread/ReaderThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/thread/WriterThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/thread/WriterThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/thread/FactorialThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/thread/FactorialThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/thread/ReaderThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/thread/ReaderThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basic/thread/WriterThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basic/thread/WriterThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/thread/FactorialThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/thread/FactorialThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/thread/ReaderThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/thread/ReaderThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/basic/thread/WriterThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/thread/WriterThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/plexsupply-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/plexsupply-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basic/thread/FactorialThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basic/thread/FactorialThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basic/thread/ReaderThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basic/thread/ReaderThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/basic/thread/WriterThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/basic/thread/WriterThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/input.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +78,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Mate\plexsupply" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="basic.thread" />
@@ -157,7 +185,8 @@
       <workItem from="1650892992606" duration="10959000" />
       <workItem from="1650960240366" duration="1683000" />
       <workItem from="1650973360312" duration="27262000" />
-      <workItem from="1651046261374" duration="5265000" />
+      <workItem from="1651046261374" duration="6178000" />
+      <workItem from="1651476527581" duration="17354000" />
     </task>
     <task id="LOCAL-00001" summary="updated README">
       <created>1651053389050</created>
@@ -173,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651053508598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated .gitignore">
+      <created>1651053760089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651053760089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +228,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated README" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README" />
+    <MESSAGE value="updated .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/plexsupply$FactorialThreadTest.ic" NAME="FactorialThreadTest Coverage Results" MODIFIED="1651003412599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

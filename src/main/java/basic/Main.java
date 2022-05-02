@@ -16,7 +16,7 @@ public class Main {
     private static final String OUTPUT_FILE = "src/main/resources/output.txt";
 
     public static void main(String[] args) {
-        BlockingQueue<String> queue = new ArrayBlockingQueue<>(QUEUE_SIZE);
+        BlockingQueue<String> readerQueue = new ArrayBlockingQueue<>(QUEUE_SIZE);
         BlockingQueue<String> writerQueue = new ArrayBlockingQueue<>(QUEUE_SIZE);
 
         Scanner in = new Scanner(System.in);
@@ -24,9 +24,9 @@ public class Main {
         int quantityOfThreads = in.nextInt();
         ExecutorService executorService = Executors.newFixedThreadPool(quantityOfThreads);
 
-        ReaderThread reader = new ReaderThread(INPUT_FILE, queue);
+        ReaderThread reader = new ReaderThread(INPUT_FILE, readerQueue);
         new Thread(reader).start();
-        FactorialThread factorialThread = new FactorialThread(queue, writerQueue);
+        FactorialThread factorialThread = new FactorialThread(readerQueue, writerQueue);
         for (int i = 0; i < quantityOfThreads; i++) {
             executorService.submit(new Thread(factorialThread));
         }

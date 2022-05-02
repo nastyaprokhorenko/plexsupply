@@ -2,20 +2,24 @@ package basic.thread;
 
 import java.math.BigInteger;
 import java.util.concurrent.BlockingQueue;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class FactorialThread implements Runnable {
-    private final BlockingQueue<String> blockingQueue;
-    private final BlockingQueue<String> blockingWriterQueue;
+    private static final Logger logger = LogManager.getLogger(ReaderThread.class);
+    private final BlockingQueue<String> readerQueue;
+    private final BlockingQueue<String> writerQueue;
 
-    public FactorialThread(BlockingQueue<String> blockingQueue,
-                           BlockingQueue<String> blockingWriterQueue) {
-        this.blockingQueue = blockingQueue;
-        this.blockingWriterQueue = blockingWriterQueue;
+    public FactorialThread(BlockingQueue<String> readerQueue, BlockingQueue<String> writerQueue) {
+        this.readerQueue = readerQueue;
+        this.writerQueue = writerQueue;
     }
 
     @Override
     public void run() {
+        logger.info("run method from factorial thread was called");
         calculateFactorial();
+        logger.info("run method from factorial thread has finished work");
     }
 
     public boolean calculateFactorial() {
@@ -24,9 +28,9 @@ public class FactorialThread implements Runnable {
         int number;
         try {
             while (true) {
-                buffer = blockingQueue.take();
+                buffer = readerQueue.take();
                 if (buffer.equals("End!")) {
-                    blockingWriterQueue.put(buffer);
+                    writerQueue.put(buffer);
                     break;
                 }
                 result = BigInteger.ONE;
@@ -34,7 +38,7 @@ public class FactorialThread implements Runnable {
                 for (int i = 2; i <= number; i++) {
                     result = result.multiply(BigInteger.valueOf(i));
                 }
-                blockingWriterQueue.put(number + " = " + result);
+                writerQueue.put(number + " = " + result);
             }
         } catch (InterruptedException e) {
             throw new RuntimeException("Can't calculate factorial of number", e);
